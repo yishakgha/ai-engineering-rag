@@ -1,0 +1,77 @@
+[
+  {
+    "question": "How many vacation days do employees receive?",
+    "expected_source": "pto_policy.md",
+    "expected_answer_contains": "20 vacation days"
+  },
+  {
+    "question": "How many paid sick days do employees receive?",
+    "expected_source": "pto_policy.md",
+    "expected_answer_contains": "10 paid sick days"
+  },
+  {
+    "question": "Can unused vacation days be carried over?",
+    "expected_source": "pto_policy.md",
+    "expected_answer_contains": "five"
+  },
+  {
+    "question": "Do I need to use a VPN for remote work?",
+    "expected_source": "vpn_policy.md",
+    "expected_answer_contains": "VPN"
+  },
+  {
+    "question": "Is MFA required when using the VPN?",
+    "expected_source": "vpn_policy.md",
+    "expected_answer_contains": "MFA"
+  },
+  {
+    "question": "What holidays are paid?",
+    "expected_source": "holiday_policy.md",
+    "expected_answer_contains": "Thanksgiving"
+  },
+  {
+    "question": "What expenses are eligible for reimbursement?",
+    "expected_source": "expense_policy.md",
+    "expected_answer_contains": "travel"
+  },
+  {
+    "question": "When must expenses be submitted?",
+    "expected_source": "expense_policy.md",
+    "expected_answer_contains": "30 days"
+  },
+  {
+    "question": "How long must a password be?",
+    "expected_source": "password_policy.md",
+    "expected_answer_contains": "12 characters"
+  },
+  {
+    "question": "Can employees reuse passwords?",
+    "expected_source": "password_policy.md",
+    "expected_answer_contains": "must not be reused"
+  },
+  {
+    "question": "What are the working hours?",
+    "expected_source": "attendance_policy.md",
+    "expected_answer_contains": "9 AM"
+  },
+  {
+    "question": "Can employees work remotely?",
+    "expected_source": "remote_work.md",
+    "expected_answer_contains": "manager approval"
+  },
+  {
+    "question": "Can I use a personal device for company work?",
+    "expected_source": "remote_work.md",
+    "expected_answer_contains": "company-issued devices"
+  },
+  {
+    "question": "How quickly must security incidents be reported?",
+    "expected_source": "security_policy.md",
+    "expected_answer_contains": "one hour"
+  },
+  {
+    "question": "What class of flight is allowed for trips under six hours?",
+    "expected_source": "travel_policy.md",
+    "expected_answer_contains": "Economy"
+  }
+]
